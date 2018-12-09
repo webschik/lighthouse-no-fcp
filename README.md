@@ -9,5 +9,5 @@
   
 * Start audits
 * In "Performance" and "PWA" sections you will get "Error!" statuses.
-* Open page `http://127.0.0.1:8081/with-initial-text.html` and run the same audits
+* Open page `with-initial-text.html` and run the same audits
 * In "Performance" and "PWA" sections you will get correct numbers
