@@ -1,6 +1,6 @@
 ## How to reproduce the issue
 * `npm install`
-* `npm run start`, open `index.html` on started local server, e.g. http://127.0.0.1:8081/index.html
+* `npm run start`, open `index.html` on started local server, e.g. http://127.0.0.1:8081/without-initial-text.html
 * Open Dev.Tools > Audits:
   * Device: "Mobile"
   * Check all audits
@@ -9,5 +9,5 @@
   
 * Start audits
 * In "Performance" and "PWA" sections you will get "Error!" statuses.
-
-
+* Open page `http://127.0.0.1:8081/with-initial-text.html` and run the same audits
+* In "Performance" and "PWA" sections you will get correct numbers
